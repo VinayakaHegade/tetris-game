@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+button{
+    margin-top: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    
+}
+
+#row2{
+    margin-top: 5px;
+    letter-spacing: 15px;
+}
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px 0 lightgray;
+}
+
+b{
+    font-size: medium;
+}
