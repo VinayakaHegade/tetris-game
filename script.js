@@ -52,7 +52,7 @@ const COLUMNS = 10;
 
 let score = 0;
 let level = 1;
-let speed = 1000;
+let speed = 500;
 
 let scoreboard = document.getElementById("scoreboard");
 
@@ -127,7 +127,7 @@ function checkGrid() {
     grid = generateGrid();
     score = 0;
     level++;
-    speed = speed - 900;
+    speed = speed - 200;
   }
   scoreboard.innerHTML = "Score: " + score + " Level: " + level;
 }
