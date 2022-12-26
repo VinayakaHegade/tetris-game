@@ -62,8 +62,6 @@ ctx.scale(30, 30);
 
 let grid = generateGrid();
 let tetrominoObj = null;
-// let tetrominoObj = generateRandomTetromino();
-// renderTetromino();
 
 setInterval(gameNewState, speed);
 
@@ -222,6 +220,7 @@ function rotate() {
       rotatedTetromino[i].push(0);
     }
   }
+
   //Transpose of matrix
   for (let i = 0; i < tetromino.length; i++) {
     for (let j = 0; j < tetromino[i].length; j++) {
