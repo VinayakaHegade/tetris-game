@@ -1,7 +1,7 @@
 # Tetris Game
 Tetris is a puzzle game known worldwide for its iconic music and addictive gameplay. 
 
-You can play this for free at [play-tetris-game.netlify.app](play-tetris-game.netlify.app)
+You can play this for free at [https://play-tetris-game.netlify.app](https://play-tetris-game.netlify.app)
 
 # Info
 You will score if you complete more lines at once.
